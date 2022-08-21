@@ -52,7 +52,7 @@ class systemd::params {
             /^1[68].*$/:
             {
             }
-            /^20.*$/:
+            /^2[02].*$/:
             {
             }
             default: { fail('Unsupported Ubuntu version!')  }
