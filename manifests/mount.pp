@@ -38,6 +38,7 @@ define systemd::mount(
                         $allow_isolate                   = undef,
                         $condition_path_is_symbolic_link = undef,
                         $default_dependencies            = undef,
+                        $requires_mounts_for             = [],
                         # global
                         $ensure                          = 'present',
                       ) {
